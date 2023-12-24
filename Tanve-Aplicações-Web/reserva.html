@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanve</title>
+    <!-- Ficheiro CSS -->
+    <link rel="stylesheet" href="style.CSS">
+    <!-- Ficheiro JS -->
+    <script src="script.js" type="text/javascript"></script> 
+    <!-- lightbox -->
+    <link rel="stylesheet" href="lightbox.css">
+    <script src="lightbox-plus-jquery.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div id="header">
+        <img src="imagens/logo-tanve.png">
+    </div>
+    <style>
+      #titulo {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+          text-align: center;
+          border-radius: 10px;
+      }
+  
+      #titulo h2 {
+          color: #333;
+      }
+  
+      #titulo p {
+          color: #666;
+          font-size: 1.2em;
+          line-height: 1.5;
+      }
+  </style>
+  
+  <div id="titulo">
+      <h2>Os nossos tanques e naves espaciais de luxo</h2>
+      <br>
+      <p>Bem-vindo à Tanve, neste stand super excluisvo pode explorar a potência dos Tanques USX, a modernidade dos Tanques Modern e a elegância das Naves MARSY e URUSZ por preços incrivies. 
+          Embarque numa jornada única, onde cada veículo é uma experiência intensa e inesquecível. Descubra o equilíbrio perfeito entre tecnologia, elegância e aventura. 
+          <br>
+          Reserve agora e mergulhe no universo emocionante da Tanve!
+          - Arrende um tanque ou uma nave na Rua de Augusto Rosa 24, 4000-098 Porto.</p>
+  </div>
+  
+    <br>
+
+    <div id="carros">
+      <a href="imagens/tank1.jpg" data-lightbox="img-porto" data-title="Tank USX"><img src="imagens/tank1-thumb.jpg" alt="" /></a>
+      <a href="imagens/nave1.jpg" data-lightbox="img-porto" data-title="Nave MARSY"><img src="imagens/nave1-thumb.jpg" alt="" /></a>
+      <a href="imagens/tank2.jpg" data-lightbox="img-porto" data-title="Modern Tank"></a><img src="imagens/tank2-thumb.jpg" alt="" /></a>
+      <a href="imagens/nave2.jpg" data-lightbox="img-porto" data-title="Nave URUSZ"><img src="imagens/nave2-thumb.jpg" alt="" /></a>
+
+    </div>
+    <div id="box">
+      <form id="validar">                         
+        <legend>Reserva na Tanve</legend>
+        
+        <div id="numero">
+          <label for="numero">Nº de dias:</label>
+          <input id="numero2" name="numero" type="number" placeholder="1" value="1">
+        </div>
+        
+        <div id="viatura">                                                      
+          <label for="viatura">Viatura:</label> 
+          <select name="viatura" id="viatura2">
+            <option value="600" selected>Tanque USX/Tanque Modern /600€ / dia</option>
+            <option value="1050">Nave MARSY/Nave URUSZ /1050€ / dia</option>                                          
+          </select>
+        </div>               
+        
+        <div id="nome">
+          <label for="nome">Nome:</label>
+          <input id="nome2" name="nome" type="text" placeholder="Primeiro e último">
+        </div>
+        
+        <div id="email">
+          <label for="email">E-mail:</label>
+          <input id="email2" type="text" placeholder="E-mail">
+        </div>
+    
+        <!-- checkbox -->
+        <div class="extra">Extras:</div>
+        <div>
+          <input type="checkbox" id="GPS" name="GPS" checked/>GPS (+10€) 
+          <input type="checkbox" id="CDB" name="CDB"/>Capacete(+15€)                
+        </div>                                    
+        <!-- Fim da checkbox -->
+    
+        <div id="total"> 
+          <label for="total">Total:<span id="price"></span></label>
+          <input type="button" value="submeter" class="button" onclick="validar()">
+        </div>
+        
+        <!-- Botão total -->
+        <!-- Fim do Botão total -->
+        
+      </form>  
+    </div>
+    
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="footer-left">© Comunicação Audiovisual e Multimédia - Cadeira: Aplicações Web</div><div id="footer-right">Projeto realizado por João Ramalho</div>
+     
+</body>
+</html>

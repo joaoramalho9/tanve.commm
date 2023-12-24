@@ -1,0 +1,107 @@
+/* CSS */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #9bdcf0;
+}
+
+#header {
+  text-align: center;
+  background-color: #615d5d;
+}
+
+#titulo {
+  text-align: center;
+}
+
+#carros {
+  width: 900px;
+  background: #ccc;
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+  background: #ccc;
+  color:#000;
+}
+#box {
+  border-radius: 20px;
+  width: 500px;
+  height: 300px;
+  padding: 50px;
+  margin: 20px 0 0 20px;
+  align-items: center;
+  background: #a39d9d;
+  margin-left: 35%;
+}
+
+fieldset {
+  padding: 0 1em 1em 1em;
+}
+
+legend {
+  padding: 1em;
+}
+
+label {
+  float: left;
+  clear: left;    
+  width: 7em;
+  margin-top: 7px;
+  margin-bottom: 9px;
+}
+
+input[type=text], select, textarea {
+  padding: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.botao {
+  padding: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  border: 0;
+  background-color:#9bdcf0;
+  color:#fff;
+  border-radius: 10px;
+}
+
+.botao:hover {
+  padding: 5px;
+  margin: 15px 0;
+  padding: 10px;
+  border: 0;
+  background-color:#9bdcf0 ;
+  color:#fff;
+  border-radius: 10px;
+}
+
+#footer-right{                                      
+  position: fixed;
+  right: 50%;
+  bottom: 0;
+  width: 100%;
+  background-color: #615d5d;
+  color: white;
+  text-align: right;
+  padding:20px;
+}
+
+
+#footer-left{
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  background: #828080;
+  color: black;
+  text-align: left;
+  padding:20px;
+}
